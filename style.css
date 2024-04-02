@@ -1,0 +1,191 @@
+
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  background: #e2e0e0;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #e2e0e0;
+}
+.head-txt {
+  color: #e2b626;
+  font-size: 25px;
+  font-weight: 500;
+}
+.nav-item a {
+  text-align: center;
+  margin: 0 5px;
+  border-radius: 10px; 
+}
+.nav-item a.active {
+  border-radius: 10px;
+  background-color: #cfa92d;
+}
+.nav-item a:hover {
+  border-radius: 10px;
+  background-color: #c0c0bd;
+}
+.carousel {
+  background-image: linear-gradient(
+      rgb(0, 0, 0, 0.5) 100%,
+      rgba(255, 255, 255, 0)
+    ),
+    url(./img/zebra1.jpg) ;
+  background-size: cover;
+  background-position: center;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+}
+.carousel-caption {
+  bottom: 30%;
+  z-index: 2;
+}
+.carousel-caption h5 {
+  font-size: 45px;
+  color: #fdc303;
+  font-weight: 700;
+}
+.carousel-caption p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #ffc916;
+}
+.carousel-caption a {
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #bb9107;
+  padding: 5px 15px;
+  text-transform: uppercase;
+}
+.t-header {
+  text-align: center;
+  margin: 30px;
+}
+.t-header p{
+  margin-top: 5px;
+}
+.s-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.s-buttons a {
+  color: black;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin-top: 10px;
+  padding: 5px 15px;
+}
+.s-buttons a:hover {
+  background-color: rgb(180, 178, 178);
+}
+.s-buttons a.active {
+  background-color: #cfa92d;
+  color: white;
+}
+.row{
+  margin-bottom: 10px;
+}
+.card {
+  border-radius: 10px;
+  width: 300px;
+  margin: auto;
+  transition: 0.5s ease;
+}
+.card-body h5 {
+  text-transform: capitalize;
+}
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 1rem 1rem 2rem #a09e9e;
+}
+.card img {
+  height: 300px;
+  border-radius: 10px 10px 0 0;
+}
+footer{
+  margin-top: 20px;
+  padding: 40px  0 30px;
+}
+footer p{
+  /* background: #7a6e45; */
+  text-align: center;
+
+
+}
+.top-link{
+  position: fixed;
+  right: 15px;
+  bottom: 20px;
+  border-radius: 10px;
+  color: black;
+  background: #bb9107;
+  animation: bounce 2s ease-in-out infinite;
+display: none;
+
+}
+.show-link{
+  display: inline;
+}
+.top-link i{
+  font-size: 30px;
+  font-weight: 900;
+}
+section{
+  margin: 20px 0;
+}
+section h1{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding:0;
+  margin: 0;
+}
+.underline {
+  width: 7rem;
+  height: 0.25rem;
+  background: #bb9107;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,45 @@
+
+
+[ {
+        "id":"1",
+        "name":"tyger1",
+        "type":"animal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, iusto quibusdam minus illo possimus magnam. ipsum dolor sit amet. ipsum dolor, sit amet consectetur adipisicing",
+        "img":"./img/tyger1.jpg"
+    },
+    {
+        "id":"2",
+        "name":"elephant1",
+        "type":"animal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, iusto quibusdam minus illo possimus magnam. ipsum dolor sit amet. ipsum dolor, sit amet consectetur adipisicing",
+        "img":"./img/elephant1.jpg"
+    },
+    {
+        "id":"3",
+        "name":"lion1",
+        "type":"animal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, iusto quibusdam minus illo possimus magnam. ipsum dolor sit amet. ipsum dolor, sit amet consectetur adipisicing",
+        "img":"./img/lion1.jpg"
+    },
+    {
+        "id":"4",
+        "name":"zebra1",
+        "type":"animal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, iusto quibusdam minus illo possimus magnam. ipsum dolor sit amet. ipsum dolor, sit amet consectetur adipisicing",
+        "img":"./img/zebra1.jpg"
+    },
+    {
+        "id":"5",
+        "name":"cheeter1",
+        "type":"animal",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, iusto quibusdam minus illo possimus magnam. ipsum dolor sit amet. ipsum dolor, sit amet consectetur adipisicing",
+        "img":"./img/cheeter1.jpg"
+    },
+    {
+        "id":"6",
+        "name":"bird1",
+        "type":"bird",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, iusto quibusdam minus illo possimus magnam. ipsum dolor sit amet. ipsum dolor, sit amet consectetur adipisicing",
+        "img":"./img/bird1.jpg"
+    }
+    ]
